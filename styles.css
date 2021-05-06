@@ -1,2 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
-#hero>h2 {}
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+#hero>h2 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+#form,
+#email {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
