@@ -7,7 +7,7 @@ html {
 *,
 *::after,
 *::before {
-    box-sizing: border-box;
+    box-sizing: inherit;
 }
 
 #hero>h2 {
